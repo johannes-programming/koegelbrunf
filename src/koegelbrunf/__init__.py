@@ -1,5 +1,3 @@
-from koegelbrunf.core import *
-from koegelbrunf.tests import *
+from .square import square, USING_CYTHON
 
-if __name__ == "__main__":
-    main()
+__all__ = ["square", "USING_CYTHON"]
